@@ -11,6 +11,8 @@
 		022F44D32948822E0093644A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022F44D22948822E0093644A /* ContentView.swift */; };
 		022F44D5294882300093644A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 022F44D4294882300093644A /* Assets.xcassets */; };
 		022F44D8294882300093644A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 022F44D7294882300093644A /* Preview Assets.xcassets */; };
+		022F44E12948826B0093644A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022F44E02948826B0093644A /* Message.swift */; };
+		022F44E3294882DD0093644A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022F44E2294882DD0093644A /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		022F44D22948822E0093644A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		022F44D4294882300093644A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		022F44D7294882300093644A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		022F44E02948826B0093644A /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		022F44E2294882DD0093644A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		022F44CF2948822E0093644A /* iMessageCardSwipe1213 */ = {
 			isa = PBXGroup;
 			children = (
-				022F44D02948822E0093644A /* iMessageCardSwipe1213App.swift */,
+				022F44DF2948824C0093644A /* View */,
+				022F44DE294882430093644A /* Model */,
 				022F44D22948822E0093644A /* ContentView.swift */,
+				022F44D02948822E0093644A /* iMessageCardSwipe1213App.swift */,
 				022F44D4294882300093644A /* Assets.xcassets */,
 				022F44D6294882300093644A /* Preview Content */,
 			);
@@ -65,6 +71,22 @@
 				022F44D7294882300093644A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		022F44DE294882430093644A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				022F44E02948826B0093644A /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		022F44DF2948824C0093644A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				022F44E2294882DD0093644A /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				022F44E12948826B0093644A /* Message.swift in Sources */,
 				022F44D32948822E0093644A /* ContentView.swift in Sources */,
+				022F44E3294882DD0093644A /* Home.swift in Sources */,
 				022F44D12948822E0093644A /* iMessageCardSwipe1213App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
